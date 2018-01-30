@@ -39,6 +39,8 @@ public class HelloWorld {
 
 	}
 	
+	
+	
 	public void Login() {
 		
 		try {
@@ -204,7 +206,7 @@ public class HelloWorld {
 	}
         
         
-        public void TurnedOn() {
+        public void On() {
         	try {
         		
         		boolean option=driver.findElement(By.id("notarization")).isEnabled();
@@ -497,7 +499,7 @@ public class HelloWorld {
 		myObj.button();
 		myObj.VerifyName();
 		myObj.VerifyDescription();
-	    //myObj.TurnedOn();
+	    //myObj.On();
 		myObj.uploadDocument();
 		myObj.addRec();
 		myObj.swapping();
